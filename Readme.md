@@ -91,3 +91,8 @@ Let us add a new line to the ```test_file```.
 ```
 echo "Adding a new line" >> test_file.txt
 ```
+Once we do this, we need to add it to the staging area and then commit. 
+```
+git add test_file.txt
+git commit -m "Adding a new line to the test file"
+```
