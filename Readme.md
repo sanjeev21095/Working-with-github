@@ -69,6 +69,25 @@ the repository next time we commit.
   
 How do I commit?
 
+<table>
+  <tr>
+    <th colspan="3">Local</th>
+    <th><span style="font-weight:bold">Remote</span></th>
+  </tr>
+  <tr>
+    <td>Working Directory</td>
+    <td>Staging Area</td>
+    <td>Local Repositoy</td>
+    <td>Upstream Repositry</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan="2"><span style="font-weight:bold">---------Commit-----------&gt;</span></td>
+    <td></td>
+  </tr>
+</table>
 
-
-
+Let us add a new line to the ```test_file```.
+```
+echo "Adding a new line" >> test_file.txt
+```
